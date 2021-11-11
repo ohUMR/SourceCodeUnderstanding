@@ -1,7 +1,7 @@
 # pytorch维度变换(view、permute、transpose的本质)
 ### 参考链接(
-1. (Numpy数组保存方式stride)[https://zhuanlan.zhihu.com/p/56684539]
-2. (关于python 高维数组transpose的实现原理以及pytorch view等的思考)[https://blog.csdn.net/normol/article/details/88555804]
+1. [Numpy数组保存方式和strides](https://zhuanlan.zhihu.com/p/56684539)
+2. [关于python 高维数组transpose的实现原理以及pytorch view等的思考](https://blog.csdn.net/normol/article/details/88555804)
 ## 1.数组保存的方式
 无论是Pytorch还是Numpy，数组都是以连续的方式进行保存的。
 
